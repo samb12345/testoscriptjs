@@ -1,5 +1,5 @@
 
-console.log('second try change')
+console.log('second try change four')
 
 let header = $('div.announcement-bar')
 
