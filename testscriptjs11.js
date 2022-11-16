@@ -25,7 +25,7 @@ var tags2 = ptags
 
 function run(){
 
-    headerw.prepend('This is from the github script!!!').css({'background-color': 'blue', 'text-align': 'center'})
+    console.log('check')
 
 
 
