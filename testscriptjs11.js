@@ -19,7 +19,7 @@ var headerq = $('div.announcement-bar')
 
 var headerw = headerq
 
-var ptags = $('h2')
+var ptags = $('h2.banner__heading')
 
 var tags2 = ptags
 
