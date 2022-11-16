@@ -19,7 +19,7 @@ var headerq = $('div.announcement-bar')
 
 var headerw = headerq
 
-var ptags = $('p')
+var ptags = $('h2')
 
 var tags2 = ptags
 
@@ -27,7 +27,7 @@ function run(){
 
     headerw.prepend('<div>This is from the github script!!!<div>').css({'background-color': 'blue', 'text-align': 'center'})
 
-    tags2.prepend('hello').css({'color': 'blue'})
+    tags2.prepend().css({'color': 'blue'})
 
 
 }
