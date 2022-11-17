@@ -27,7 +27,7 @@ function run(){
 
     headerw.prepend('<div>This is from the github script!!!<div>').css({'background-color': 'red', 'text-align': 'center'})
 
-    tags2.prepend('hello')
+    tags2.prepend('hello').css({'color': 'red'})
 
   
 
