@@ -25,7 +25,7 @@ var tags2 = ptags
 
 var heading3 = $('h3')
 
-var productdescription = $('product__description')
+var productdescription = $('div.product__description')
 
 function run(){
 
