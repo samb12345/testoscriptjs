@@ -39,9 +39,9 @@ console.log(maptest)
 function run(){
 
 
-    productdescription.prepend(`<div>test</div>`).css({'display': 'flex', 'background-color': 'green', 'color': 'red'})
+    productdescription.prepend(`<div>test</div>`).css({'background-color': 'green', 'color': 'red'})
 
-    productdescription.children().remove()
+    //productdescription.children().remove()
 
 };
 
