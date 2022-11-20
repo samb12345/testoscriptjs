@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 31')
+console.log('second try change 32')
 
 var headerq = $('div.announcement-bar')
 
@@ -39,7 +39,7 @@ console.log(maptest)
 function run(){
 
 
-    productdescription.before(`<div>test</div>`).css({'display': 'flex', 'background-color': 'green', 'color': 'red'})
+    productdescription.prepend(`<div>test</div>`).css({'display': 'flex', 'background-color': 'green', 'color': 'red'})
 
     productdescription.children().remove()
 
