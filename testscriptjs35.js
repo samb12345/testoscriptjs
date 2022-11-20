@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 34')
+console.log('second try change 35')
 
 var headerq = $('div.announcement-bar')
 
@@ -42,7 +42,7 @@ console.log(tabheadings)
 function run(){
 
 
-    productdescription.prepend(`<div>${tabheadings}</div>`).css({'background-color': 'green', 'color': 'red'})
+    productdescription.prepend(`<div>${tabheadings}</div>`).css({'background-color': 'green', 'color': 'red', 'display': 'flex'})
 
     //productdescription.children().remove()
 
