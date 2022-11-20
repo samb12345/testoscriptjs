@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 25')
+console.log('second try change 26')
 
 var headerq = $('div.announcement-bar')
 
@@ -31,7 +31,7 @@ var productdescription = $('div.product__description')
 array1 = productdescription.children('h3')
 
 var maptest = $.map(array1, function(item, index){
-    return item
+    return item.innerHTML
 });
 
 console.log(maptest)
