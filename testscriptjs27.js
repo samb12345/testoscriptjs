@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 26')
+console.log('second try change 27')
 
 var headerq = $('div.announcement-bar')
 
@@ -38,8 +38,6 @@ console.log(maptest)
 
 function run(){
 
-
-    headerw.prepend('<div><div> <button> Tab 1 </button> <button> Tab 2 </button> <button> Tab 3 </button> <button> Tab 4</button> </div> <div> Tab 1: content </div> <div> Tab 2: content </div> <div> Tab 3: content </div> <div> Tab 4: content </div> </div>').css({'text-align': 'center'})
 
     productdescription.prepend(`<div>${maptest}</div>`).css({'display': 'flex'})
 
