@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 24')
+console.log('second try change 25')
 
 var headerq = $('div.announcement-bar')
 
