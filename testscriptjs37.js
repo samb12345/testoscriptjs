@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 36')
+console.log('second try change 37')
 
 var headerq = $('div.announcement-bar')
 
@@ -46,7 +46,7 @@ function run(){
 
 newdiv.css(({'background-color': 'blue', 'color': 'orange', 'display': 'flex'}))
     //productdescription.children().remove()
-
+}
 
 run()
 }
