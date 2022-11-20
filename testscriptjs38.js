@@ -13,7 +13,7 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-console.log('second try change 37')
+console.log('second try change 38')
 
 var headerq = $('div.announcement-bar')
 
@@ -36,7 +36,7 @@ var maptest = $.map(array1, function(item, index){
 
 var tabheadings = maptest.join('')
 
-var tabheadingdiv = `<div class="tabscss">${tabheadings}</div>`
+var tabheadingdiv = `<div>${tabheadings}</div>`
 
 tabheadingdiv.css(({'background-color': 'blue', 'color': 'orange', 'display': 'flex'}))
 
