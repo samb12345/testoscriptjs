@@ -3,3 +3,11 @@
         border: 2px solid red;
         height: 100px;
 }
+
+.tabheadings{
+    display: flex;
+}
+
+.tabcontent{
+    display: flex;
+}
