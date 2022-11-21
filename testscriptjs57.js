@@ -17,7 +17,7 @@ function handler(){
 
     $('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/samb12345/testoscriptjs/script.css">');
 
-console.log('second try change 55')
+console.log('second try change 57')
 
 var headerq = $('div.announcement-bar')
 
