@@ -17,7 +17,7 @@ function handler(){
 
     $('head').append('<link rel="stylesheet" type="text/css" href="script.css"');
 
-console.log('second try change 51')
+console.log('second try change 52')
 
 var headerq = $('div.announcement-bar')
 
