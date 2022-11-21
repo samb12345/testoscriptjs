@@ -11,9 +11,11 @@ script.onload = handler
 
 document.getElementsByTagName("head")[0].appendChild(script)
 
+$('head').append('<link rel="stylesheet" type="text/css" href="script.css"')
+
 function handler(){
 
-console.log('second try change 46')
+console.log('second try change 47')
 
 var headerq = $('div.announcement-bar')
 
@@ -36,7 +38,7 @@ var maptest = $.map(array1, function(item, index){
 
 var tabheadings = maptest.join('')
 
-var tabheadingdiv = `<div>${tabheadings}</div>`
+var tabheadingdiv = `<div class="tabcontainer">${tabheadings}</div>`
 
 
 
