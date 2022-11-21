@@ -11,9 +11,11 @@ script.onload = handler
 
 document.getElementsByTagName("head")[0].appendChild(script)
 
+document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="script.css"')
+
 function handler(){
 
-console.log('second try change 43')
+console.log('second try change 51')
 
 var headerq = $('div.announcement-bar')
 
@@ -36,19 +38,15 @@ var maptest = $.map(array1, function(item, index){
 
 var tabheadings = maptest.join('')
 
-var tabheadingdiv = `<div>${tabheadings}</div>`
+var tabheadingdiv = `<div class="tabcontainer">${tabheadings}</div>`
 
 
-
-console.log(tabheadings)
+console.log(tabheadingdiv)
 
 function run(){
 
-    productdescription.children().remove()
-
-    productdescription.prepend({tabheadingdiv}).css({'background-color': 'green', 'color': 'red', 'display': 'flex'})
-   
-
+    productdescription.replaceWith(tabheadingdiv)
+    
   
 }
 

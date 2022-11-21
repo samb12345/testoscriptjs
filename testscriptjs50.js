@@ -11,7 +11,7 @@ script.onload = handler
 
 document.getElementsByTagName("head")[0].appendChild(script)
 
-document.getElementsByTagName('head')[0].append('<link rel="stylesheet" type="text/css" href="script.css"')
+document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="script.css"')
 
 function handler(){
 
@@ -41,12 +41,9 @@ var tabheadings = maptest.join('')
 var tabheadingdiv = `<div class="tabcontainer">${tabheadings}</div>`
 
 
-
 console.log(tabheadingdiv)
 
 function run(){
-
-
 
     productdescription.replaceWith(tabheadingdiv)
     
