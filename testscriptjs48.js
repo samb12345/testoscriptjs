@@ -15,7 +15,7 @@ document.getElementsByTagName('head')[0].append('<link rel="stylesheet" type="te
 
 function handler(){
 
-console.log('second try change 47')
+console.log('second try change 48')
 
 var headerq = $('div.announcement-bar')
 
