@@ -1,0 +1,7 @@
+.tabs{
+   border: solid red 2px;
+    display: flex;
+    flex-direction: column;
+   height: 100px;
+}
+
