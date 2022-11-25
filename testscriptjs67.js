@@ -15,9 +15,9 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-    $('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/samb12345/testoscriptjs/script.css">');
+    $('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/samb12345/testoscriptjs/script5.css">');
 
-console.log('second try change 60')
+console.log('second try change 67')
 
 var headerq = $('div.announcement-bar')
 
@@ -37,7 +37,12 @@ var productdescription = $('div.product__description')
 array1 = productdescription.children('h3')
 
 var maptest = $.map(array1, function(item, index){
-    return `<div class="tabs__toggle">${item.innerHTML}</div>`
+    if(index==0){
+         return `<div class="tabs__toggle is-active">${item.innerHTML}</div>`
+        } else {
+            return `<div class="tabs__toggle">${item.innerHTML}</div>`
+        }
+
 });
 
 
@@ -49,7 +54,11 @@ var tabheadings = maptest.join('')
 array2 = productdescription.children('p')
 
 var maptest2 = $.map(array2, function(item, index){
-    return `<div class="tabs__content"><div class="tabs__title">${item.innerHTML}</div></div>`
+    if(index==0){
+       return `<div class="tabs__content is-active"><div class="tabs__title">${item.innerHTML}</div></div>`
+    } else {
+        return `<div class="tabs__content"><div class="tabs__title">${item.innerHTML}</div></div>`
+    }
 });
 
 

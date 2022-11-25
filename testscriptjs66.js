@@ -37,7 +37,12 @@ var productdescription = $('div.product__description')
 array1 = productdescription.children('h3')
 
 var maptest = $.map(array1, function(item, index){
-    return `<div class="tabs__toggle">${item.innerHTML}</div>`
+    if(index==0){
+         return `<div class="tabs__toggle is-active">${item.innerHTML}</div>`
+        } else {
+            return `<div class="tabs__toggle">${item.innerHTML}</div>`
+        }
+
 });
 
 
