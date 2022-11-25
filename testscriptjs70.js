@@ -15,9 +15,9 @@ document.getElementsByTagName("head")[0].appendChild(script)
 
 function handler(){
 
-    $('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/samb12345/testoscriptjs/script7.css">');
+    $('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/samb12345/testoscriptjs/script8.css">');
 
-console.log('second try change 68')
+console.log('second try change 70')
 
 var headerq = $('div.announcement-bar')
 
